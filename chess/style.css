@@ -1,0 +1,31 @@
+.board {
+    width: 400px;
+    margin: auto
+}
+
+body {
+    background-color: #6E5D49;
+}
+
+.info {
+    width: 500px;
+    margin: auto;
+    padding: 12px;
+    background-color: #A07461;
+    border: 2px solid #542F2D !important;
+    color: whitesmoke;
+    border-radius: 12px;
+    display: flex !important;
+    flex-direction: column;
+}
+
+.move-history {
+    max-height: 100px;
+    overflow-y: scroll;
+}
+
+select {
+    background-color: #6E5D49;
+    color: white;
+    outline: none;
+}
