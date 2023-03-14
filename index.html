@@ -13,12 +13,14 @@
 
 <body>
     <nav>
-        <div class="logo">XenAI</div>
+        <div class="logo" onclick="location.reload();">XenAI</div>
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="./chess/index.html">Chess AI</a></li>
+            <li><a href="https://chat.erzen.tk">XenGPT</a></li>
+            <li><a href="https://gjenero.erzen.tk/image">Image Classification</a></li>
         </ul>
     </nav>
     <header>
@@ -37,14 +39,56 @@
             processing, robotics, and more. It is powered by advanced technologies such as machine learning, deep
             learning, and neural networks, which enable machines to analyze and learn from large amounts of data.
         </p>
-        <h3>Our Chess AI</h3>
+        <h3>Chess AI</h3>
         <p>
             Our current app is a chess AI that uses machine learning to play chess at an advanced level. It is trained
             on a large dataset of chess games and uses reinforcement learning to continually improve its performance.
             This means that the more games it plays, the better it gets!
         </p>
         <p>
-            Our chess AI is just the beginning. We are constantly exploring new ways to use AI to solve complex problems
+            AI is not only capable of playing chess at an advanced level, but it also has the ability to analyze and
+            learn from its own gameplay. This allows it to identify patterns and strategies that it can use to improve
+            its performance in future games. Whether you're a seasoned chess player or a beginner, our chess AI is the
+            perfect opponent to challenge your skills and help you improve your gameplay.
+        </p>
+
+
+        <h3>XenGPT</h3>
+        <p>
+            XenGPT is an innovative website that utilizes cutting-edge technology to provide a unique chat experience
+            for its users. Using the latest advancements in natural language processing and machine learning, XenGPT is
+            able to generate human-like responses to user input. This means that users can engage in conversations with
+            XenGPT on a wide range of topics, from current events to personal interests.
+        </p>
+        <p>
+            Additionally, XenGPT is
+            constantly learning and adapting to user interactions, making the chat experience even more personalized and
+            engaging over time. Whether you're looking for a friendly chat or seeking answers to your burning questions,
+            XenGPT is the perfect companion for any conversation.
+        </p>
+
+
+        <h3>Image Classification</h3>
+        <p>
+            Our AI image classification tool is a cutting-edge software that uses advanced machine learning algorithms
+            to accurately identify and classify images. The tool is trained on a vast dataset of images and is capable
+            of recognizing a wide range of objects, animals, and people with remarkable accuracy. With its ability to
+            quickly and accurately classify images, our AI image classification tool is an invaluable resource for
+            businesses and organizations that deal with large volumes of visual data, such as e-commerce websites,
+            social media platforms, and medical facilities.
+        </p>
+        <p>
+            The tool is also highly customizable, allowing users to
+            train it on specific image types or categories, making it an ideal solution for a wide range of industries.
+            Whether you're looking to streamline your image classification process or improve your image recognition
+            capabilities, our AI image classification tool is the perfect solution for your needs.
+        </p>
+
+        <h3>Other projects</h3>
+
+        <p>
+            These AI projects are just the beginning. We are constantly exploring new ways to use AI to solve complex
+            problems
             and improve people's lives. Stay tuned for updates on our latest AI projects and research.
         </p>
     </main>
@@ -107,16 +151,21 @@
         .logo {
             font-size: 2rem;
             font-weight: bold;
+            user-select: none;
+            cursor: pointer;
         }
 
         ul {
             display: flex;
             justify-content: center;
             align-items: center;
+            list-style-type: none;
         }
 
         li {
             margin: 0 1rem;
+            text-decoration: none;
+
         }
 
         header {
